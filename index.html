@@ -585,15 +585,14 @@
             <!-- Left: Video Layout (Poster Image) -->
             <div class="lg:col-span-7">
                 <div class="rounded-card-lg overflow-hidden border border-white/20 relative shadow-xl bg-black aspect-video">
-                    <!-- GANTI URL PADA atribut 'src' dan 'poster' DI BAWAH INI -->
-                    <video 
-                        class="w-full h-full object-cover" 
-                        controls 
-                        poster="https://iframe.mediadelivery.net/play/385050/17e7eb47-bdf2-4d29-959a-1ef08f66f14a"
-                        preload="none">
-                        <source src="https://iframe.mediadelivery.net/play/385050/17e7eb47-bdf2-4d29-959a-1ef08f66f14a" type="video/mp4">
-                        Maaf, browser Anda tidak mendukung pemutaran video.
-                    </video>
+                    <!-- BUNNY.NET EMBED IFRAME -->
+                    <iframe 
+                        src="https://iframe.mediadelivery.net/embed/385050/17e7eb47-bdf2-4d29-959a-1ef08f66f14a?autoplay=false&loop=false&muted=false&preload=true&responsive=true" 
+                        loading="lazy" 
+                        class="w-full h-full absolute top-0 left-0 border-0" 
+                        allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+                        allowfullscreen="true">
+                    </iframe>
                 </div>
                 <!-- Lesson thumbnails -->
                 <div class="grid grid-cols-3 gap-4 mt-4">
